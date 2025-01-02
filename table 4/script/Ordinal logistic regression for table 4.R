@@ -28,7 +28,7 @@ tbl_regression(OLR, exponentiate = TRUE) |>
   bold_labels() |>
   bold_p(t = 0.05) |>
   as_gt() |>
-  gtsave(OLR, "data\table_4")
+  gtsave("table_4.docx")
   
   
  
