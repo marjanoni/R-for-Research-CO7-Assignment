@@ -6,8 +6,7 @@ library(XLS)
 library(gt)
 library(readr)
 #load data
-AMR_RAW <- read_excel("C:/Users/oni31/Desktop/Chiral/AMR_KAP_Data.xlsx")
-
+AMR_RAW<- read_excel("raw_data/AMR_KAP_Data.xlsx")
 
 
 #change col. header
@@ -92,4 +91,4 @@ factors_amr <- cbind(demographics,amr_domains)
 
 #export data
 
-write_excel_csv(factors_amr, "cleandata.csv")
+write_excel_csv(factors_amr, "clean data/cleandata.csv")
